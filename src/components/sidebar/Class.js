@@ -16,9 +16,19 @@ class Class extends React.Component {
 	*/
 
 	render() {
+		const classes = this.props.classes;
 		return (
-			<div className="class">
-				Class
+			<div className="class-container">
+				<h3>Select a class:</h3>
+				<select name="class">
+					<option value="">-- Select --</option>
+					{
+						Object
+							.keys(classes)
+							.map(key => <option key={key}>{classes[key].name}</option>)
+					}
+				</select>
+				<button className="class-update">Update Class</button>
 			</div>
 		);
 	}

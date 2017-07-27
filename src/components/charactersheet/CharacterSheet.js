@@ -79,7 +79,30 @@ class CharacterSheet extends React.Component {
 				Hit Dice:<br/>
 				Death Save Successes:<br/>
 				Death Save Failures:<br/>
-				
+				<h3>Attacks & Spellcasting</h3>
+				Weapon:<br/>
+				Spell:<br/>
+				<h3>Equipment</h3>
+				Copper:<br/>
+				Silver:<br/>
+				Electrum:<br/>
+				Gold:<br/>
+				Platinum:<br/>
+				<h3>Languages</h3>
+				Language:<br/>
+				<h3>Proficiencies</h3>
+				Proficiency:<br/>
+				<h3>Traits</h3>
+				Trait:<br/>
+				<h3>Features</h3>
+				Feature:<br/>
+				<h3>Feats</h3>
+				Feat:<br/>
+				<h3>Personality</h3>
+				Personality Traits:<br/>
+				Ideals:<br/>
+				Bonds:<br/>
+				Flaws:<br/>
 
 			</div>
 		);

@@ -1,13 +1,17 @@
 import React from 'react';
-import CharacterSheet from './charactersheet/CharacterSheet.js'
+import CharacterSheet from './charactersheet/CharacterSheet'
 
-import Flavor from './sidebar/Flavor.js'
-import Race from './sidebar/Race.js'
-import Class from './sidebar/Class.js'
-import Background from './sidebar/Background.js'
-import Stats from './sidebar/Stats.js'
-import Inventory from './sidebar/Inventory.js'
-import Spells from './sidebar/Spells.js'
+import Flavor from './sidebar/Flavor'
+import Race from './sidebar/Race'
+import RaceData from './data/races'
+import Class from './sidebar/Class'
+import ClassData from './data/classes'
+import Background from './sidebar/Background'
+import BackgroundData from './data/backgrounds'
+import Stats from './sidebar/Stats'
+import Inventory from './sidebar/Inventory'
+import Spells from './sidebar/Spells'
+
 
 class Home extends React.Component {
 
@@ -18,10 +22,10 @@ class Home extends React.Component {
 					<CharacterSheet />
 				</div>
 				<div className="col-xs-3">
+					<Race races={RaceData} />
+					<Class classes={ClassData} />
+					<Background backgrounds={BackgroundData} />
 					<Flavor />
-					<Race />
-					<Class />
-					<Background />
 					<Stats />
 					<Inventory />
 					<Spells />

@@ -14,11 +14,21 @@ class Race extends React.Component {
 		
 	}
 	*/
-
+	
 	render() {
+		const races = this.props.races;
 		return (
-			<div className="race">
-				Race
+			<div className="race-container">
+				<h3>Select a race:</h3>
+				<select name="race">
+					<option value="">-- Select --</option>
+					{
+						Object
+							.keys(races)
+							.map(key => <option key={key}>{races[key].name}</option>)
+					}
+				</select>
+				<button className="race-update">Update Race</button>
 			</div>
 		);
 	}
