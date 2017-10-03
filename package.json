@@ -12,8 +12,11 @@
     "eslint-plugin-jsx-a11y": "^3.0.2",
     "eslint-plugin-react": "^6.8.0",
     "prop-types": "^15.5.10",
+    "react-redux": "^5.0.6",
     "react-router-dom": "^4.1.1",
+    "react-router-redux": "^4.0.8",
     "react-scripts": "0.6.1",
+    "redux": "^3.7.2",
     "stylus": "0.54.5"
   },
   "dependencies": {
