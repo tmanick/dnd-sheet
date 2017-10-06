@@ -15,7 +15,7 @@ class Race extends React.Component {
 							.map(key => <option key={key} value={key}>{races[key].name}</option>)
 					}
 				</select>
-				<button className="race-update">Update Race</button>
+				<button className="race-update" onClick={() => {this.props.raceUpdate()}}>Update Race</button>
 				<div className="race-details">{this.props.raceDetails}</div>
 			</div>
 		);

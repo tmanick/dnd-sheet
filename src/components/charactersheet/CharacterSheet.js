@@ -23,21 +23,21 @@ class CharacterSheet extends React.Component {
 				Class & Level:<br/>
 				Background:<br/>
 				Player Name:<br/>
-				Race:<br/>
+				Race: <strong>{this.props.csRace}</strong><br/>
 				Alignment:<br/>
 				Experience Points:<br/>
 				<h3>Stats</h3>
-				Strength Stat:<br/>
-				Strength Modifier:<br/>
-				Dexterity Stat:<br/>
+				Strength Stat: <strong>{this.props.csStr}</strong><br/>
+				Strength Modifier:<br />
+				Dexterity Stat: <strong>{this.props.csDex}</strong><br/>
 				Dexterity Modifier:<br/>
-				Constitution Stat:<br/>
+				Constitution Stat: <strong>{this.props.csCon}</strong><br/>
 				Constitution Modifier:<br/>
-				Intelligence Stat:<br/>
+				Intelligence Stat: <strong>{this.props.csInt}</strong><br/>
 				Intelligence Modifier:<br/>
-				Wisdom Stat:<br/>
+				Wisdom Stat: <strong>{this.props.csWis}</strong><br/>
 				Wisdom Modifier:<br/>
-				Charisma Stat:<br/>
+				Charisma Stat: <strong>{this.props.csCha}</strong><br/>
 				Charisma Modifier:<br/>
 				<h3>Inspiration</h3>
 				Inspiration:<br/>
